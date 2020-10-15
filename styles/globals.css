@@ -19,3 +19,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.heading {
+  @apply xl:text-5xl xl:font-semibold;
+}
+
+.gradient {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
+
+.btn-primary {
+  @apply inline-block px-10 py-2 border-2 border-primary text-primary uppercase hover:bg-primary hover:text-white transition-all duration-200 ease-linear rounded-full font-medium cursor-pointer;
+}

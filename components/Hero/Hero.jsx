@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import Typed from "typed.js";
+import { Link } from "react-scroll";
 
-import styles from "./Hero.module.css";
+//components
+import Container from "../Container/Container";
 
 const Hero = () => {
   const h1 = useRef();
@@ -36,20 +38,26 @@ const Hero = () => {
 
   return (
     <header className="h-screen flex items-center">
-      <div className="container mx-auto px-20 space-y-2 text-tertiary">
+      <Container className="space-y-2 text-tertiary">
         <div className="flex items-center space-x-3">
-          <h1 ref={h1} className={styles.heading} />
+          <h1 ref={h1} className="heading" />
           <Fade top delay={1500}>
-            <p
-              className={`${styles.heading} bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary`}
-            >
+            <p className="heading bg-clip-text text-transparent gradient">
               Delasi Mensah
             </p>
           </Fade>
         </div>
 
-        <h2 className={styles.heading} ref={h2} />
-      </div>
+        <h2 className="heading" ref={h2} />
+
+        <div className="pt-5">
+          <Fade left delay={5000}>
+            <Link to="about" smooth duration={1000} className="btn-primary">
+              Know More
+            </Link>
+          </Fade>
+        </div>
+      </Container>
     </header>
   );
 };
