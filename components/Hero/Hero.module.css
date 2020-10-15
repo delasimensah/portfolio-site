@@ -1,0 +1,3 @@
+.heading {
+  @apply xl:text-5xl xl:font-semibold;
+}

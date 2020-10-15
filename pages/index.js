@@ -1,7 +1,18 @@
+//components
+import Hero from "../components/Hero/Hero";
+import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
+
 const Home = () => {
   return (
     <div className="">
-      <h1>Coming Soon</h1>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };
