@@ -21,7 +21,7 @@ a {
 }
 
 .heading {
-  @apply xl:text-5xl xl:font-semibold;
+  @apply text-3xl md:text-4xl xl:text-5xl font-semibold text-center md:text-left;
 }
 
 .gradient {

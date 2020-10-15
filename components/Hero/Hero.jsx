@@ -37,9 +37,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="h-screen flex items-center">
-      <Container className="space-y-2 text-tertiary">
-        <div className="flex items-center space-x-3">
+    <header className="min-h-screen flex items-center">
+      <Container className="space-y-4 text-tertiary">
+        <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-3">
           <h1 ref={h1} className="heading" />
           <Fade top delay={1500}>
             <p className="heading bg-clip-text text-transparent gradient">
@@ -50,7 +50,7 @@ const Hero = () => {
 
         <h2 className="heading" ref={h2} />
 
-        <div className="pt-5">
+        <div className="pt-5 flex justify-center md:block">
           <Fade left delay={5000}>
             <Link to="about" smooth duration={1000} className="btn-primary">
               Know More

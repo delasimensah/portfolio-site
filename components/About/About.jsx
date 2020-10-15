@@ -1,40 +1,46 @@
 import React from "react";
 import Image from "next/image";
 import myPic from "../../public/me.jpg";
+import Fade from "react-reveal/Fade";
+
+//components
+import Title from "../Title/Title";
+import Container from "../Container/Container";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className=" border border-black h-screen py-20 bg-gradient-to-r from-primary to-secondary text-white space-y-10"
-    >
-      <h1 className="heading uppercase text-center">About me</h1>
+    <section id="about" className="h-auto gradient text-white relative">
+      <Container className="pt-20 space-y-10">
+        <Title className="text-white" text="about me" />
 
-      <div className="grid grid-cols-2 gap-20 section border border-red-500">
-        <div className="flex justify-center items-center">
-          <div className=" w-1/2 h-3/4 shadow-lg rounded-md overflow-hidden">
-            <Image src={myPic} alt="my-photo" className="h-full w-full" />
+        <div className="grid md:grid-cols-2 gap-10">
+          <div className="flex justify-center items-center">
+            <Fade left duration={2000}>
+              <div className="shadow-lg rounded-full overflow-hidden w-48 h-48 lg:w-96 lg:h-96">
+                <img src="/me.jpg" alt="my-photo" className="" />
+              </div>
+            </Fade>
+          </div>
+
+          <div className="flex flex-col justify-center items-center space-y-5">
+            <Fade top delay={1500}>
+              <p className="">
+                With user experience as my main focus, I love paying close
+                attention to the smallest details when creating websites and web
+                applications.This allows me to create truly unique experiences
+                for my clients and their users.
+              </p>
+              <p className="">
+                No matter your needs, be it a new custom-made website, a unique
+                online store or have an idea for an engaging web application:
+                Please feel free to contact me so we can discuss the details!
+              </p>
+            </Fade>
           </div>
         </div>
+      </Container>
 
-        <div className="flex flex-col justify-center items-center space-y-5">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Cupiditate, tempora, animi impedit officiis autem earum cum non hic
-            laborum repudiandae numquam nisi fugit blanditiis est amet nesciunt
-            quis accusantium sint maiores vel maxime inventore! Et doloribus
-            amet ullam id consequuntur.
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Cupiditate, tempora, animi impedit officiis autem earum cum non hic
-            laborum repudiandae numquam nisi fugit blanditiis est amet nesciunt
-            quis accusantium sint maiores vel maxime inventore! Et doloribus
-            amet ullam id consequuntur.
-          </p>
-        </div>
-      </div>
+      <img src="/waves.svg" alt="waves" className="" />
     </section>
   );
 };
