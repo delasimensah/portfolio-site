@@ -1,7 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import myPic from "../../public/me.jpg";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-scroll";
 
 //components
 import Title from "../Title/Title";
@@ -33,7 +32,16 @@ const About = () => {
               <p className="">
                 No matter your needs, be it a new custom-made website, a unique
                 online store or have an idea for an engaging web application:
-                Please feel free to contact me so we can discuss the details!
+                Please feel free to{" "}
+                <Link
+                  to="contact"
+                  smooth
+                  duration={1000}
+                  className="text-red-500 cursor-pointer"
+                >
+                  contact me
+                </Link>{" "}
+                so we can discuss the details!
               </p>
             </Fade>
           </div>

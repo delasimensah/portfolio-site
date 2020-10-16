@@ -3,23 +3,21 @@ import React from "react";
 //components
 import Title from "../Title/Title";
 import Container from "../Container/Container";
+import Project from "../Project/Project";
+
+//utils
+import { projects } from "../../utils/projects";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "Project Title",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo molestias architecto eligendi, facere doloremque ab ad recusandae reprehenderit accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo molestias architecto eligendi, facere doloremque ab ad recusandae reprehenderit accusamus.",
-      demo: "https://digitalnomadgh.com/",
-      github: "https://github.com/delasimensah/portfolio-site",
-      image: "/me.jpg",
-    },
-  ];
   return (
-    <div className="border border-black">
+    <div className="">
       <Title text="projects" className="text-tertiary" />
 
-      <Container>projects</Container>
+      <Container className="space-y-28 my-20 ">
+        {projects.map((project, idx) => {
+          return <Project project={project} idx={idx} key={idx} />;
+        })}
+      </Container>
     </div>
   );
 };
