@@ -1,28 +1,31 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
+import useScreen from "../../hooks/useScreen";
 
 //components
 import Title from "../Title/Title";
 import Container from "../Container/Container";
 
 const About = () => {
+  const { isDesktop, isMobile } = useScreen();
+
   return (
-    <section id="about" className="h-auto gradient text-white relative">
-      <Container className="pt-20 space-y-10">
+    <section id="about" className="relative text-white gradient">
+      <Container>
         <Title className="text-white" text="about me" />
 
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex justify-center items-center">
-            <Fade left duration={2000}>
-              <div className="shadow-lg rounded-full overflow-hidden w-48 h-48 lg:w-96 lg:h-96">
+        <div className="grid gap-10 md:grid-cols-2">
+          <div className="flex items-center justify-center">
+            <Fade left={isDesktop} top={isMobile} duration={2000}>
+              <div className="overflow-hidden rounded-full shadow-lg w-52 h-52 md:w-64 md:h-64 lg:w-96 lg:h-96">
                 <img src="/me.jpg" alt="my-photo" className="" />
               </div>
             </Fade>
           </div>
 
-          <div className="flex flex-col justify-center items-center space-y-5">
-            <Fade top delay={1500}>
+          <div className="flex flex-col items-center justify-center space-y-5">
+            <Fade top={isDesktop} bottom={isMobile} delay={1500}>
               <p className="">
                 With user experience as my main focus, I love paying close
                 attention to the smallest details when creating websites and web
@@ -37,7 +40,7 @@ const About = () => {
                   to="contact"
                   smooth
                   duration={1000}
-                  className="text-red-500 cursor-pointer"
+                  className="cursor-pointer text-tertiary"
                 >
                   contact me
                 </Link>{" "}

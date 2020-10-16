@@ -1,13 +1,16 @@
 import React from "react";
 import Tilt from "react-tilt";
 import Fade from "react-reveal/Fade";
+import useScreen from "../../hooks/useScreen";
 
-const Project = ({ project, idx }) => {
+const Project = ({ project }) => {
+  const { isDesktop, isMobile } = useScreen();
+
   return (
-    <div className="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-20">
-      <Fade left duration={1000}>
+    <div className="flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20">
+      <Fade left={isDesktop} top={isMobile} duration={1000}>
         <div className={` lg:w-2/5 space-y-5 `}>
-          <h1 className="capitalize font-medium text-2xl">{project.title}</h1>
+          <h1 className="text-2xl font-semibold capitalize">{project.title}</h1>
 
           <p>{project.description}</p>
 
@@ -32,10 +35,10 @@ const Project = ({ project, idx }) => {
         </div>
       </Fade>
 
-      <Fade right duration={1000}>
+      <Fade right={isDesktop} bottom={isMobile} duration={1000}>
         <div className={`lg:w-3/5`}>
           <Tilt className="Tilt" options={{ max: 25 }}>
-            <div className="Tilt-inner rounded-md overflow-hidden shadow-2xl">
+            <div className="overflow-hidden rounded-md shadow-2xl Tilt-inner">
               <img
                 src={project.image}
                 alt="project-image"

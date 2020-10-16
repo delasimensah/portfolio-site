@@ -10,15 +10,17 @@ import { projects } from "../../utils/projects";
 
 const Projects = () => {
   return (
-    <div className="">
-      <Title text="projects" className="text-tertiary" />
+    <section className="text-tertiary">
+      <Container>
+        <Title text="projects" />
 
-      <Container className="space-y-28 my-20 ">
-        {projects.map((project, idx) => {
-          return <Project project={project} idx={idx} key={idx} />;
-        })}
+        <div className="space-y-28 ">
+          {projects.map((project, idx) => {
+            return <Project project={project} idx={idx} key={idx} />;
+          })}
+        </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

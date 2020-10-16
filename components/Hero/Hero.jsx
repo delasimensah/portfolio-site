@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import Typed from "typed.js";
 import { Link } from "react-scroll";
+import useScreen from "../../hooks/useScreen";
 
 //components
 import Container from "../Container/Container";
@@ -11,6 +12,8 @@ const Hero = () => {
   const h2 = useRef();
   const typed = useRef();
   const typed2 = useRef();
+
+  const { isMobile, isDesktop } = useScreen();
 
   useEffect(() => {
     const options1 = {
@@ -37,12 +40,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="min-h-screen flex items-center">
+    <header className="flex items-center min-h-screen">
       <Container className="space-y-4 text-tertiary">
-        <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-3">
+        <div className="flex flex-col space-y-2 md:flex-row md:items-center md:space-y-0 md:space-x-3">
           <h1 ref={h1} className="heading" />
           <Fade top delay={1500}>
-            <p className="heading bg-clip-text text-transparent gradient">
+            <p className="text-transparent heading bg-clip-text gradient">
               Delasi Mensah
             </p>
           </Fade>
@@ -50,8 +53,8 @@ const Hero = () => {
 
         <h2 className="heading" ref={h2} />
 
-        <div className="pt-5 flex justify-center md:block">
-          <Fade left delay={5000}>
+        <div className="flex justify-center pt-5 md:block">
+          <Fade left={isDesktop} bottom={isMobile} delay={4500}>
             <Link to="about" smooth duration={1000} className="btn-primary">
               Know More
             </Link>
