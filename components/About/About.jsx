@@ -17,7 +17,12 @@ const About = () => {
 
         <div className="grid gap-10 md:grid-cols-2">
           <div className="flex items-center justify-center">
-            <Fade left={isDesktop} top={isMobile} duration={2000}>
+            <Fade
+              left={isDesktop}
+              top={isMobile}
+              duration={1000}
+              distance="30px"
+            >
               <div className="overflow-hidden rounded-full shadow-lg w-52 h-52 md:w-64 md:h-64 lg:w-96 lg:h-96">
                 <img src="/me.jpg" alt="my-photo" className="" />
               </div>
@@ -25,7 +30,12 @@ const About = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center space-y-5">
-            <Fade top={isDesktop} bottom={isMobile} delay={1500}>
+            <Fade
+              top={isDesktop}
+              bottom={isMobile}
+              delay={1000}
+              distance="30px"
+            >
               <p className="">
                 With user experience as my main focus, I love paying close
                 attention to the smallest details when creating websites and web

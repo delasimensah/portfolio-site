@@ -8,7 +8,7 @@ const Project = ({ project }) => {
 
   return (
     <div className="flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20">
-      <Fade left={isDesktop} top={isMobile} duration={1000}>
+      <Fade left={isDesktop} top={isMobile} duration={1000} distance="30px">
         <div className={` lg:w-2/5 space-y-5 `}>
           <h1 className="text-2xl font-semibold capitalize">{project.title}</h1>
 
@@ -35,7 +35,13 @@ const Project = ({ project }) => {
         </div>
       </Fade>
 
-      <Fade right={isDesktop} bottom={isMobile} duration={1000}>
+      <Fade
+        right={isDesktop}
+        bottom={isMobile}
+        duration={1000}
+        delay={1000}
+        distance="30px"
+      >
         <div className={`lg:w-3/5`}>
           <Tilt className="Tilt" options={{ max: 25 }}>
             <div className="overflow-hidden rounded-md shadow-2xl Tilt-inner">
