@@ -16,9 +16,9 @@ const Contact = () => {
 
       <Container>
         <Title text="contact" className="text-white" />
-        <div className="space-y-5">
+        <div className="py-10 space-y-7">
           <Zoom duration={1000} distance="30px">
-            <p className="text-3xl font-semibold tracking-wider text-center text-white">
+            <p className="text-xl font-semibold tracking-wider text-center text-white md:text-3xl">
               Interested in hiring me? Kindly email me.
             </p>
           </Zoom>

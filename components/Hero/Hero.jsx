@@ -40,11 +40,11 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="flex items-center min-h-screen">
+    <header id="top" className="flex items-center min-h-screen">
       <Container className="space-y-4 text-tertiary">
         <div className="flex flex-col space-y-2 md:flex-row md:items-center md:space-y-0 md:space-x-3">
           <h1 ref={h1} className="heading" />
-          <Fade top cascade delay={1500} distance="60px">
+          <Fade top delay={1500} distance="60px">
             <p className="text-transparent heading bg-clip-text gradient">
               Delasi Mensah
             </p>

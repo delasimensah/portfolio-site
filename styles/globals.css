@@ -35,3 +35,7 @@ a {
 .btn-white {
   @apply inline-block px-10 py-2 font-medium text-white uppercase transition-all duration-200 ease-linear border-2 border-white rounded-full cursor-pointer hover:bg-white hover:text-primary;
 }
+
+.icon {
+  @apply w-8 h-8 text-white cursor-pointer hover:text-primary;
+}
