@@ -27,13 +27,13 @@ const Footer = () => {
             >
               <FaGithub className="icon" />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/delasimensah/"
               target="_blank"
               rel="noreferrer"
             >
               <FaInstagram className="icon" />
-            </a>
+            </a> */}
 
             <a
               href="https://www.linkedin.com/in/delasi-mensah-38166b214/"
@@ -46,7 +46,9 @@ const Footer = () => {
 
           <div className="w-2/3 h-px bg-white" />
 
-          <p>copyright</p>
+          <p className="text-lg tracking-wider text-white">
+            {new Date().getFullYear()} Delasi Mensah
+          </p>
         </div>
       </Container>
     </div>

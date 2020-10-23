@@ -17,14 +17,14 @@ const Hero = () => {
 
   useEffect(() => {
     const options1 = {
-      strings: [`Hi, my name is `],
-      typeSpeed: 50,
+      strings: [`Hello, my name is `],
+      typeSpeed: 60,
       showCursor: false,
     };
 
     const options2 = {
       strings: [`I am a React Developer`],
-      typeSpeed: 50,
+      typeSpeed: 60,
       startDelay: 2500,
       showCursor: false,
     };
