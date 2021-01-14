@@ -7,4 +7,12 @@ export const projects = [
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1.png",
   },
+  {
+    title: "Designo",
+    description:
+      "Designo is an award-winning custom designs and digital branding company. This is their portfolio website showcasing their impressive designs",
+    demo: "https://designo.digitalnomadgh.com/",
+    github: "https://github.com/delasimensah/designo",
+    image: "/projects/proj2.png",
+  },
 ];
