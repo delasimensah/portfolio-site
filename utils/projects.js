@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Social Media Website",
     description:
-      "Social media website with the ability to create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
+      "Social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
     demo: "https://social-media-website.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1.png",
@@ -14,5 +14,36 @@ export const projects = [
     demo: "https://designo.digitalnomadgh.com/",
     github: "https://github.com/delasimensah/designo",
     image: "/projects/proj2.png",
+  },
+  {
+    title: "Photosnap",
+    description:
+      "A marketing website for Photosnap, a photo sharing platform for photographers and visual story tellers",
+    demo: "https://photosnap.digitalnomadgh.com/",
+    github: "https://github.com/delasimensah/photosnap",
+    image: "/projects/proj3.png",
+  },
+  {
+    title: "myteam",
+    description:
+      "myteam is a platform that helps companies tap into the abandunce of global talent to find and build high performing teams.",
+    demo: "https://myteam.digitalnomadgh.com/",
+    github: "https://github.com/delasimensah/myteam",
+    image: "/projects/proj4.png",
+  },
+  {
+    title: "dine",
+    description:
+      "dine is a beautiful farmhouse restaurant in the country side of the UK. They host family gatherings, special events and larger social events ",
+    demo: "https://dine.digitalnomadgh.com/",
+    github: "https://github.com/delasimensah/dine-restaurant",
+    image: "/projects/proj5.png",
+  },
+  {
+    title: "payapi",
+    description: "Website for a payment platform api",
+    demo: "https://payapi.digitalnomadgh.com/",
+    github: "https://github.com/delasimensah/payapi",
+    image: "/projects/proj6.png",
   },
 ];
