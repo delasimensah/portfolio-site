@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "Designo",
     description:
-      "Designo is an award-winning custom designs and digital branding company. This is their portfolio website showcasing their impressive designs",
+      "Designo is an award-winning custom design and digital branding company. This is their portfolio website showcasing their impressive designs. Built with React and Nextjs.",
     demo: "https://designo.digitalnomadgh.com/",
     github: "https://github.com/delasimensah/designo",
     image: "/projects/proj2.png",
@@ -18,7 +18,7 @@ export const projects = [
   {
     title: "Photosnap",
     description:
-      "A marketing website for Photosnap, a photo sharing platform for photographers and visual story tellers",
+      "A marketing website for Photosnap, a photo sharing platform for photographers and visual story tellers. Built with React and Nextjs",
     demo: "https://photosnap.digitalnomadgh.com/",
     github: "https://github.com/delasimensah/photosnap",
     image: "/projects/proj3.png",
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: "myteam",
     description:
-      "myteam is a platform that helps companies tap into the abandunce of global talent to find and build high performing teams.",
+      "Myteam is a platform that helps companies tap into the abandunce of global talent to find and build high performing teams. Buit with React and Nextjs",
     demo: "https://myteam.digitalnomadgh.com/",
     github: "https://github.com/delasimensah/myteam",
     image: "/projects/proj4.png",
@@ -34,16 +34,16 @@ export const projects = [
   {
     title: "dine",
     description:
-      "dine is a beautiful farmhouse restaurant in the country side of the UK. They host family gatherings, special events and larger social events ",
+      "Dine is a beautiful farmhouse restaurant in the countryside of the UK. They host family gatherings, special events and larger social events. Built with React and Gatsby ",
     demo: "https://dine.digitalnomadgh.com/",
     github: "https://github.com/delasimensah/dine-restaurant",
     image: "/projects/proj5.png",
   },
-  {
-    title: "payapi",
-    description: "Website for a payment platform api",
-    demo: "https://payapi.digitalnomadgh.com/",
-    github: "https://github.com/delasimensah/payapi",
-    image: "/projects/proj6.png",
-  },
+  // {
+  //   title: "payapi",
+  //   description: "Website for a payment platform api",
+  //   demo: "https://payapi.digitalnomadgh.com/",
+  //   github: "https://github.com/delasimensah/payapi",
+  //   image: "/projects/proj6.png",
+  // },
 ];
