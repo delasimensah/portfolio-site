@@ -8,9 +8,9 @@ export const projects = [
     image: "/projects/proj7.png",
   },
   {
-    title: "Social Media Website",
+    title: "Social",
     description:
-      "Social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
+      "Social is a social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
     demo: "https://social-dm.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1.png",
