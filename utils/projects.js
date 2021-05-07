@@ -40,6 +40,13 @@ export const projects = [
     image: "/projects/proj4.png",
   },
   {
+    title: "payapi",
+    description: "Website for a payment platform api",
+    demo: "https://payapi-dm.netlify.app/",
+    github: "https://github.com/delasimensah/payapi",
+    image: "/projects/proj6.png",
+  },
+  {
     title: "dine",
     description:
       "Dine is a beautiful farmhouse restaurant in the countryside of the UK. They host family gatherings, special events and larger social events. Built with React and Gatsby. ",
@@ -47,11 +54,4 @@ export const projects = [
     github: "https://github.com/delasimensah/dine-restaurant",
     image: "/projects/proj5.png",
   },
-  // {
-  //   title: "payapi",
-  //   description: "Website for a payment platform api",
-  //   demo: "https://payapi.digitalnomadgh.com/",
-  //   github: "https://github.com/delasimensah/payapi",
-  //   image: "/projects/proj6.png",
-  // },
 ];
