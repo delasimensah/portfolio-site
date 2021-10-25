@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Video Chat App",
+    description:
+      "A video chat application where users can have video conferences",
+    demo: "https://videochatapp-dn.vercel.app/",
+    github: "",
+    image: "/projects/proj9.png",
+  },
+  {
     title: "Cryptonews",
     description:
       "Crypto news is a web application where you can find all the information you need about cryptocurries",

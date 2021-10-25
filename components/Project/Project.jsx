@@ -23,14 +23,16 @@ const Project = ({ project }) => {
             >
               See live
             </a>
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block "
-            >
-              Source Code
-            </a>
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block "
+              >
+                Source Code
+              </a>
+            )}
           </div>
         </div>
       </Fade>
