@@ -54,8 +54,15 @@ const Hero = () => {
         <h2 className="heading" ref={h2} />
 
         <div className="flex justify-center pt-5 md:block">
-          <Fade left={isDesktop} bottom={isMobile} delay={4500} distance="30px">
-            <Link to="about" smooth duration={1000} className="btn-primary">
+          <Fade
+            left={isDesktop}
+            bottom={isMobile}
+            delay={4500}
+            distance="30px"
+            smooth
+            duration={1000}
+          >
+            <Link to="about" className="btn-primary">
               Know More
             </Link>
           </Fade>

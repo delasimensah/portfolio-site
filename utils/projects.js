@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Cryptonews",
+    description:
+      "Crypto news is a web application where you can find all the information you need about cryptocurries",
+    demo: "https://cryptonews-dm.netlify.app/",
+    github: "https://github.com/delasimensah/crypto-news-app",
+    image: "/projects/proj8.png",
+  },
+  {
     title: "Audiophile",
     description:
       "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with React and Nextjs",
