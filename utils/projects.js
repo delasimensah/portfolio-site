@@ -2,23 +2,30 @@ export const projects = [
   {
     title: "Video Chat App",
     description:
-      "A video chat application where users can have video conferences",
-    demo: "https://videochatapp-dn.netlify.app/",
+      "A video chat application where users can have video conferences.Built with React and Agora.",
+    demo: "https://videochatapp-dm.netlify.app/",
     github: "",
     image: "/projects/proj9.png",
   },
   {
     title: "Cryptonews",
     description:
-      "Crypto news is a web application where you can find all the information you need about cryptocurries",
+      "Crypto news is a web application where you can find all the information you need about cryptocurries.Built with React, Coin Ranking API and Bing News API.",
     demo: "https://cryptonews-dm.netlify.app/",
     github: "https://github.com/delasimensah/crypto-news-app",
     image: "/projects/proj8.png",
   },
   {
+    title: "Chat App",
+    description: "A chat application built with React, Nextjs and Chat Engine.",
+    demo: "https://chatapp-dm.netlify.app/",
+    github: "https://github.com/delasimensah/chat-app",
+    image: "/projects/proj10.png",
+  },
+  {
     title: "Audiophile",
     description:
-      "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with React and Nextjs",
+      "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with React and Nextjs.",
     demo: "https://audiophile-dm.netlify.app/",
     github: "https://github.com/delasimensah/audiophile",
     image: "/projects/proj7.png",
