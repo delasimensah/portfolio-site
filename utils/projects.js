@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Video Chat App",
+    title: "Digital Meets",
     description:
-      "A video chat application where users can have video conferences.Built with React and Agora.",
-    demo: "https://videochatapp-dm.netlify.app/",
+      "A video chat application where users can have video conferences.Built with React.",
+    demo: "https://digitalmeets.netlify.app/",
     github: "",
     image: "/projects/proj9.png",
   },
@@ -36,7 +36,7 @@ export const projects = [
       "Social is a social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
     demo: "https://social-dm.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
-    image: "/projects/proj1.png",
+    image: "/projects/proj1_2.png",
   },
   {
     title: "Designo",
