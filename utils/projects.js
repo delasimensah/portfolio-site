@@ -16,10 +16,10 @@ export const projects = [
     image: "/projects/proj8.png",
   },
   {
-    title: "Chat App",
-    description: "A chat application built with React, Nextjs and Chat Engine.",
-    demo: "https://chatapp-dm.netlify.app/",
-    github: "https://github.com/delasimensah/chat-app",
+    title: "DigiChat",
+    description: "A chat application built with React and Chat Engine.",
+    demo: "https://digichat-dm.netlify.app/",
+    github: "https://github.com/delasimensah/digichat",
     image: "/projects/proj10.png",
   },
   {
