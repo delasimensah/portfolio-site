@@ -8,14 +8,6 @@ export const projects = [
     image: "/projects/proj9.png",
   },
   {
-    title: "Cryptonews",
-    description:
-      "Crypto news is a web application where you can find all the information you need about cryptocurries.Built with React, Coin Ranking API and Bing News API.",
-    demo: "https://cryptonews-dm.netlify.app/",
-    github: "https://github.com/delasimensah/crypto-news-app",
-    image: "/projects/proj8.png",
-  },
-  {
     title: "DigiChat",
     description: "A chat application built with React and Chat Engine.",
     demo: "https://digichat-dm.netlify.app/",
@@ -37,6 +29,14 @@ export const projects = [
     demo: "https://social-dm.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1_2.png",
+  },
+  {
+    title: "Cryptonews",
+    description:
+      "Crypto news is a web application where you can find all the information you need about cryptocurries.Built with React, Coin Ranking API and Bing News API.",
+    demo: "https://cryptonews-dm.netlify.app/",
+    github: "https://github.com/delasimensah/crypto-news-app",
+    image: "/projects/proj8.png",
   },
   {
     title: "Designo",

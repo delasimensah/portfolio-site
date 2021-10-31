@@ -14,6 +14,11 @@ const Projects = () => {
       <Container>
         <Title text="projects" />
 
+        <p className="text-lg font-medium text-center">
+          The projects below are a combination of personal and client projects
+          to showcase what I can do.
+        </p>
+
         <div className="space-y-28 ">
           {projects.map((project, idx) => {
             return <Project project={project} idx={idx} key={idx} />;
