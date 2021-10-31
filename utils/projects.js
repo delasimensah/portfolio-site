@@ -1,4 +1,12 @@
 export const projects = [
+  // {
+  //   title: "Sakicole",
+  //   description:
+  //     "Sakicole is a custom-made womens clothing online store. Built with React and Nextjs",
+  //   demo: "https://sakicole.com/",
+  //   github: "https://github.com/delasimensah/sakicole",
+  //   image: "/projects/proj15.png",
+  // },
   {
     title: "Digital Meets",
     description:
@@ -15,6 +23,14 @@ export const projects = [
     image: "/projects/proj10.png",
   },
   {
+    title: "Online Fundraising Landing Website",
+    description:
+      "A landing website for a fictional online fundraising charity to showcase a beautiful modern design. Built with React and Nextjs.",
+    demo: "https://onlinefundraising-dm.netlify.app/",
+    github: "https://github.com/delasimensah/online-fundraising-landing",
+    image: "/projects/proj14.png",
+  },
+  {
     title: "Audiophile",
     description:
       "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with React and Nextjs.",
@@ -23,12 +39,28 @@ export const projects = [
     image: "/projects/proj7.png",
   },
   {
+    title: "Tech Agency Landing Website",
+    description:
+      "A landing website for a fictional tech agency to showcase a beautiful modern design. Built with React and Nextjs.",
+    demo: "https://agencylanding-dm.netlify.app/",
+    github: "https://github.com/delasimensah/agency-landing",
+    image: "/projects/proj13.png",
+  },
+  {
     title: "Social",
     description:
       "Social is a social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
     demo: "https://social-dm.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1_2.png",
+  },
+  {
+    title: "Cryto Landing Website",
+    description:
+      "A landing website for a fictional crytocurrency company to showcase a beautiful modern design. Built with React and Nextjs.",
+    demo: "https://cryptolanding-dm.netlify.app/",
+    github: "https://github.com/delasimensah/crypto-landing",
+    image: "/projects/proj12.png",
   },
   {
     title: "Mobile App Landing Website",
