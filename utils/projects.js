@@ -31,6 +31,14 @@ export const projects = [
     image: "/projects/proj1_2.png",
   },
   {
+    title: "Mobile App Landing Website",
+    description:
+      "A landing website for a fictional mobile application to showcase a beautiful modern design. Built with React and Nextjs.",
+    demo: "https://digiapplanding.netlify.app/",
+    github: "https://github.com/delasimensah/digi-mobile-app-landing-page",
+    image: "/projects/proj11.png",
+  },
+  {
     title: "Cryptonews",
     description:
       "Crypto news is a web application where you can find all the information you need about cryptocurries.Built with React, Coin Ranking API and Bing News API.",
