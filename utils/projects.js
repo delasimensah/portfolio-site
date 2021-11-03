@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "Sakicole",
     description:
-      "Sakicole is a custom-made womens clothing online store. Built with React and Nextjs",
+      "Sakicole is a custom-made womens clothing online store. Built with Nextjs and Shopify",
     demo: "https://sakicole.com/",
     github: "https://github.com/delasimensah/sakicole",
     image: "/projects/proj15.png",
@@ -33,7 +33,7 @@ export const projects = [
   {
     title: "Online Fundraising Landing Website",
     description:
-      "A landing website for a fictional online fundraising charity to showcase a beautiful modern design. Built with React and Nextjs.",
+      "A landing website for a fictional online fundraising charity to showcase a beautiful modern design. Built with Nextjs.",
     demo: "https://onlinefundraising-dm.netlify.app/",
     github: "https://github.com/delasimensah/online-fundraising-landing",
     image: "/projects/proj14.png",
@@ -41,7 +41,7 @@ export const projects = [
   {
     title: "Audiophile",
     description:
-      "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with React and Nextjs.",
+      "Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. Built with Nextjs.",
     demo: "https://audiophile-dm.netlify.app/",
     github: "https://github.com/delasimensah/audiophile",
     image: "/projects/proj7.png",
@@ -49,7 +49,7 @@ export const projects = [
   {
     title: "Tech Agency Landing Website",
     description:
-      "A landing website for a fictional tech agency to showcase a beautiful modern design. Built with React and Nextjs.",
+      "A landing website for a fictional tech agency to showcase a beautiful modern design. Built with Nextjs.",
     demo: "https://agencylanding-dm.netlify.app/",
     github: "https://github.com/delasimensah/agency-landing",
     image: "/projects/proj13.png",
@@ -57,7 +57,7 @@ export const projects = [
   {
     title: "Social",
     description:
-      "Social is a social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with React, Nextjs and Firebase.",
+      "Social is a social media website with the ability to register users, create posts, upload images, like posts, comment on posts and follow other users. Built with Nextjs and Firebase.",
     demo: "https://social-dm.netlify.app/",
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1_2.png",
@@ -65,7 +65,7 @@ export const projects = [
   {
     title: "Cryto Landing Website",
     description:
-      "A landing website for a fictional crytocurrency company to showcase a beautiful modern design. Built with React and Nextjs.",
+      "A landing website for a fictional crytocurrency company to showcase a beautiful modern design. Built with Nextjs.",
     demo: "https://cryptolanding-dm.netlify.app/",
     github: "https://github.com/delasimensah/crypto-landing",
     image: "/projects/proj12.png",
@@ -73,7 +73,7 @@ export const projects = [
   {
     title: "Mobile App Landing Website",
     description:
-      "A landing website for a fictional mobile application to showcase a beautiful modern design. Built with React and Nextjs.",
+      "A landing website for a fictional mobile application to showcase a beautiful modern design. Built with Nextjs.",
     demo: "https://digiapplanding.netlify.app/",
     github: "https://github.com/delasimensah/digi-mobile-app-landing-page",
     image: "/projects/proj11.png",
@@ -89,7 +89,7 @@ export const projects = [
   {
     title: "Designo",
     description:
-      "Designo is an award-winning custom design and digital branding company. This is their portfolio website showcasing their impressive designs. Built with React and Nextjs.",
+      "Designo is an award-winning custom design and digital branding company. This is their portfolio website showcasing their impressive designs. Built with Nextjs.",
     demo: "https://designo-dm.netlify.app/",
     github: "https://github.com/delasimensah/designo",
     image: "/projects/proj2.png",
@@ -97,7 +97,7 @@ export const projects = [
   {
     title: "Photosnap",
     description:
-      "A marketing website for Photosnap, a photo sharing platform for photographers and visual story tellers. Built with React and Nextjs.",
+      "A marketing website for Photosnap, a photo sharing platform for photographers and visual story tellers. Built with Nextjs.",
     demo: "https://photosnap-dm.netlify.app/",
     github: "https://github.com/delasimensah/photosnap",
     image: "/projects/proj3.png",
@@ -105,14 +105,14 @@ export const projects = [
   {
     title: "myteam",
     description:
-      "Myteam is a platform that helps companies tap into the abandunce of global talent to find and build high performing teams. Buit with React and Nextjs.",
+      "Myteam is a platform that helps companies tap into the abandunce of global talent to find and build high performing teams. Buit with Nextjs.",
     demo: "https://myteam-dm.netlify.app/",
     github: "https://github.com/delasimensah/myteam",
     image: "/projects/proj4.png",
   },
   {
     title: "payapi",
-    description: "Website for a payment platform api",
+    description: "Website for a payment platform api. Built with Nextjs",
     demo: "https://payapi-dm.netlify.app/",
     github: "https://github.com/delasimensah/payapi",
     image: "/projects/proj6.png",
@@ -120,7 +120,7 @@ export const projects = [
   {
     title: "dine",
     description:
-      "Dine is a beautiful farmhouse restaurant in the countryside of the UK. They host family gatherings, special events and larger social events. Built with React and Gatsby. ",
+      "Dine is a beautiful farmhouse restaurant in the countryside of the UK. They host family gatherings, special events and larger social events. Built with Gatsby. ",
     demo: "https://dine-dm.netlify.app/",
     github: "https://github.com/delasimensah/dine-restaurant",
     image: "/projects/proj5.png",
