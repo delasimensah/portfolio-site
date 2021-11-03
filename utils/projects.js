@@ -1,12 +1,20 @@
 export const projects = [
-  // {
-  //   title: "Sakicole",
-  //   description:
-  //     "Sakicole is a custom-made womens clothing online store. Built with React and Nextjs",
-  //   demo: "https://sakicole.com/",
-  //   github: "https://github.com/delasimensah/sakicole",
-  //   image: "/projects/proj15.png",
-  // },
+  {
+    title: "Travel Companion",
+    description:
+      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing.",
+    demo: "https://travelcompanion-dm.netlify.app/",
+    github: "https://github.com/delasimensah/travel-companion",
+    image: "/projects/proj16.png",
+  },
+  {
+    title: "Sakicole",
+    description:
+      "Sakicole is a custom-made womens clothing online store. Built with React and Nextjs",
+    demo: "https://sakicole.com/",
+    github: "https://github.com/delasimensah/sakicole",
+    image: "/projects/proj15.png",
+  },
   {
     title: "Digital Meets",
     description:
