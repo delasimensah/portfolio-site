@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Travel Companion",
     description:
-      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing.Built with React, Google Maps API and Travel Advisor API",
+      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing. Built with React, Google Maps API and Travel Advisor API",
     demo: "https://travelcompanion-dm.netlify.app/",
     github: "https://github.com/delasimensah/travel-companion",
     image: "/projects/proj16.png",
@@ -18,14 +18,15 @@ export const projects = [
   {
     title: "Digital Meets",
     description:
-      "A video chat application where users can have video conferences.Built with React.",
+      "A video chat application where users can have video conferences. Built with React.",
     demo: "https://digitalmeets.netlify.app/",
     github: "",
     image: "/projects/proj9.png",
   },
   {
     title: "DigiChat",
-    description: "A chat application built with React and Chat Engine.",
+    description:
+      "A chat application where users can signup and send messages to their friends and family. Built with React and Chat Engine",
     demo: "https://digichat-dm.netlify.app/",
     github: "https://github.com/delasimensah/digichat",
     image: "/projects/proj10.png",
