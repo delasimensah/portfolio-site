@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Travel Companion",
     description:
-      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing.",
+      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing.Built with React, Google Maps API and Travel Advisor API",
     demo: "https://travelcompanion-dm.netlify.app/",
     github: "https://github.com/delasimensah/travel-companion",
     image: "/projects/proj16.png",
