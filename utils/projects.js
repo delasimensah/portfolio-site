@@ -7,14 +7,14 @@ export const projects = [
     github: "https://github.com/delasimensah/travel-companion",
     image: "/projects/proj16.png",
   },
-  {
-    title: "Sakicole",
-    description:
-      "Sakicole is a custom-made womens clothing online store. Built with Nextjs and Shopify",
-    demo: "https://sakicole.com/",
-    github: "https://github.com/delasimensah/sakicole",
-    image: "/projects/proj15.png",
-  },
+  // {
+  //   title: "Sakicole",
+  //   description:
+  //     "Sakicole is a custom-made womens clothing online store. Built with Nextjs and Shopify",
+  //   demo: "https://sakicole.com/",
+  //   github: "https://github.com/delasimensah/sakicole",
+  //   image: "/projects/proj15.png",
+  // },
   {
     title: "Digital Meets",
     description:
@@ -31,14 +31,14 @@ export const projects = [
     github: "https://github.com/delasimensah/digichat",
     image: "/projects/proj10.png",
   },
-  {
-    title: "Online Fundraising Landing Website",
-    description:
-      "A landing website for a fictional online fundraising charity to showcase a beautiful modern design. Built with Nextjs.",
-    demo: "https://onlinefundraising-dm.netlify.app/",
-    github: "https://github.com/delasimensah/online-fundraising-landing",
-    image: "/projects/proj14.png",
-  },
+  // {
+  //   title: "Online Fundraising Landing Website",
+  //   description:
+  //     "A landing website for a fictional online fundraising charity to showcase a beautiful modern design. Built with Nextjs.",
+  //   demo: "https://onlinefundraising-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/online-fundraising-landing",
+  //   image: "/projects/proj14.png",
+  // },
   {
     title: "Audiophile",
     description:
@@ -47,14 +47,14 @@ export const projects = [
     github: "https://github.com/delasimensah/audiophile",
     image: "/projects/proj7.png",
   },
-  {
-    title: "Tech Agency Landing Website",
-    description:
-      "A landing website for a fictional tech agency to showcase a beautiful modern design. Built with Nextjs.",
-    demo: "https://agencylanding-dm.netlify.app/",
-    github: "https://github.com/delasimensah/agency-landing",
-    image: "/projects/proj13.png",
-  },
+  // {
+  //   title: "Tech Agency Landing Website",
+  //   description:
+  //     "A landing website for a fictional tech agency to showcase a beautiful modern design. Built with Nextjs.",
+  //   demo: "https://agencylanding-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/agency-landing",
+  //   image: "/projects/proj13.png",
+  // },
   {
     title: "Social",
     description:
@@ -63,14 +63,14 @@ export const projects = [
     github: "https://github.com/delasimensah/social-media-site",
     image: "/projects/proj1_2.png",
   },
-  {
-    title: "Cryto Landing Website",
-    description:
-      "A landing website for a fictional crytocurrency company to showcase a beautiful modern design. Built with Nextjs.",
-    demo: "https://cryptolanding-dm.netlify.app/",
-    github: "https://github.com/delasimensah/crypto-landing",
-    image: "/projects/proj12.png",
-  },
+  // {
+  //   title: "Cryto Landing Website",
+  //   description:
+  //     "A landing website for a fictional crytocurrency company to showcase a beautiful modern design. Built with Nextjs.",
+  //   demo: "https://cryptolanding-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/crypto-landing",
+  //   image: "/projects/proj12.png",
+  // },
   {
     title: "Mobile App Landing Website",
     description:
@@ -111,13 +111,13 @@ export const projects = [
     github: "https://github.com/delasimensah/myteam",
     image: "/projects/proj4.png",
   },
-  {
-    title: "payapi",
-    description: "Website for a payment platform api. Built with Nextjs",
-    demo: "https://payapi-dm.netlify.app/",
-    github: "https://github.com/delasimensah/payapi",
-    image: "/projects/proj6.png",
-  },
+  // {
+  //   title: "payapi",
+  //   description: "Website for a payment platform api. Built with Nextjs",
+  //   demo: "https://payapi-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/payapi",
+  //   image: "/projects/proj6.png",
+  // },
   {
     title: "dine",
     description:
