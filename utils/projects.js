@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Share",
+    description:
+      "A social media web application where users can share images with other users. Built with React and Sanity",
+    demo: "https://share-dm.netlify.app/",
+    github: "https://github.com/delasimensah/share-frontend",
+    image: "/projects/proj17.png",
+  },
+  {
     title: "Travel Companion",
     description:
       "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing. Built with React, Google Maps API and Travel Advisor API",
