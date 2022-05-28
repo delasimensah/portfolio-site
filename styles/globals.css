@@ -42,3 +42,8 @@ a {
 .icon {
   @apply w-8 h-8 text-white cursor-pointer hover:text-primary;
 }
+
+.mantine-esdj4p.__mantine-ref-tabActive {
+  color: #f8f9fa !important;
+  background: #8e44ad !important;
+}

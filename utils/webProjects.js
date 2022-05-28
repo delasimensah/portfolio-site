@@ -1,4 +1,4 @@
-export const projects = [
+export default [
   {
     title: "Share",
     description:

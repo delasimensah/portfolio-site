@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="pb-10 gradient">
-      <img src="/waves.svg" alt="waves" className="transform rotate-180" />
+      {/* <img src="/waves.svg" alt="waves" className="transform rotate-180" /> */}
 
       <Container>
         <Title text="contact" className="text-white" />

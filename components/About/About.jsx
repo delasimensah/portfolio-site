@@ -37,11 +37,18 @@ const About = () => {
               distance="30px"
             >
               <p className="">
+                Being a huge advocate of the JAMSTACK I prefer to work with
+                React, Flutter or React Native for mobile apps, accompanied by a
+                serverless architecture.
+              </p>
+
+              <p className="">
                 With user experience as my main focus, I love paying close
                 attention to the smallest details when creating websites and web
                 applications.This allows me to create truly unique experiences
                 for my clients and their users.
               </p>
+
               <p className="">
                 No matter your needs, be it a new custom-made website, a unique
                 online store or have an idea for an engaging web application:
@@ -61,7 +68,7 @@ const About = () => {
         </div>
       </Container>
 
-      <img src="/waves.svg" alt="waves" className="" />
+      {/* <img src="/waves.svg" alt="waves" className="" /> */}
     </section>
   );
 };

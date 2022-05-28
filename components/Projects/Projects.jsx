@@ -1,12 +1,15 @@
 import React from "react";
 
+// mantine
+import { Tabs } from "@mantine/core";
+
 //components
 import Title from "../Title/Title";
 import Container from "../Container/Container";
 import Project from "../Project/Project";
 
 //utils
-import { projects } from "../../utils/projects";
+import webProjects from "../../utils/webProjects";
 
 const Projects = () => {
   return (
@@ -19,11 +22,27 @@ const Projects = () => {
           to showcase the value I can bring to your projects.
         </p>
 
-        <div className="space-y-28 ">
-          {projects.map((project, idx) => {
-            return <Project project={project} idx={idx} key={idx} />;
-          })}
-        </div>
+        <Tabs
+          position="center"
+          grow
+          classNames={{
+            tabLabel: "font-raleway text-base",
+          }}
+          variant="pills"
+        >
+          <Tabs.Tab label="Web">
+            {" "}
+            <div className="py-16 space-y-28">
+              {webProjects.map((project, idx) => {
+                return <Project project={project} idx={idx} key={idx} />;
+              })}
+            </div>
+          </Tabs.Tab>
+
+          {/* <Tabs.Tab label="Mobile">
+            <div className="py-16 space-y-28">Messages tab content</div>
+          </Tabs.Tab> */}
+        </Tabs>
       </Container>
     </section>
   );

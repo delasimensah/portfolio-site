@@ -8,6 +8,9 @@ module.exports = {
         secondary: "#8e44ad",
         tertiary: "#2c3e50",
       },
+      fontFamily: {
+        raleway: ["Raleway"],
+      },
     },
   },
   variants: {

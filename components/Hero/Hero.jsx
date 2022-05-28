@@ -17,13 +17,13 @@ const Hero = () => {
 
   useEffect(() => {
     const options1 = {
-      strings: [`Hello, my name is `],
+      strings: [`Hi, my name is Delasi Mensah`],
       typeSpeed: 60,
       showCursor: false,
     };
 
     const options2 = {
-      strings: [`I am a React Developer`],
+      strings: [`I am a Web and Mobile Developer`],
       typeSpeed: 60,
       startDelay: 2500,
       showCursor: false,
@@ -44,11 +44,11 @@ const Hero = () => {
       <Container className="space-y-4 text-tertiary">
         <div className="flex flex-col space-y-2 md:flex-row md:items-center md:space-y-0 md:space-x-3">
           <h1 ref={h1} className="heading" />
-          <Fade top delay={1500} distance="60px">
+          {/* <Fade top delay={1500} duration={500} distance="60px">
             <p className="text-transparent heading bg-clip-text gradient">
               Delasi Mensah
             </p>
-          </Fade>
+          </Fade> */}
         </div>
 
         <h2 className="heading" ref={h2} />
@@ -59,10 +59,9 @@ const Hero = () => {
             bottom={isMobile}
             delay={4500}
             distance="30px"
-            smooth
             duration={1000}
           >
-            <Link to="about" className="btn-primary">
+            <Link to="about" smooth duration={1000} className="btn-primary">
               Know More
             </Link>
           </Fade>
