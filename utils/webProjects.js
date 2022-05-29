@@ -1,4 +1,20 @@
 export default [
+  // {
+  //   title: "React Dashboard",
+  //   description:
+  //     "A dashboard web application with multiple use cases. Built with React",
+  //   demo: "https://reactdashboard-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/react-dashboard",
+  //   image: "/projects/project18.png",
+  // },
+  {
+    title: "Agama Africana",
+    description:
+      "A social media web application where users can register, create posts, upload images, like posts, comment on posts, follow other users and also direct message other users . Built with React, Mapbox and Firebase",
+    demo: "https://agamaafricana.com/",
+    github: "",
+    image: "/projects/agama2.png",
+  },
   {
     title: "Share",
     description:
