@@ -90,14 +90,8 @@ const Technologies = () => {
         <div className="grid items-center grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
           {logos.map((logo, idx) => {
             return (
-              <div className="w-52">
-                <Image
-                  key={idx}
-                  src={logo}
-                  alt=""
-                  className=""
-                  placeholder="blur"
-                />
+              <div className="w-36 lg:w-52" key={idx}>
+                <Image src={logo} alt="" className="" placeholder="blur" />
               </div>
             );
           })}

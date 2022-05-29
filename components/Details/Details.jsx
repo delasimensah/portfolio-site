@@ -24,14 +24,13 @@ const details = [
   {
     img: money,
     title: "Transparent Pricing",
-    text: `The price of a project will vary depending on the scope of the project. I don't charge on an hourly basis, but rather we will agree on a fixed price. Only if the scope of the project changes will the price be adjusted accordingly with prior agreement. Therefore it is always clear on what the final price will be, and there will be no surprises.
-
+    text: `The price of a project will vary depending on the scope of the project. Only if the scope of the project changes during development will the price be adjusted accordingly with prior agreement. Therefore it is always clear on what the final price will be, and there will be no surprises.
     `,
   },
   {
     img: marketing,
     title: "Personal Relationship",
-    text: `You won't be dealing with a big web agency. This makes the relationship more personal, as I will be your contact person throughout the entire process for any inquiries. If you have any requests that go beyond my range of services, I can readily rely on a network of competent freelancers.`,
+    text: `You won't be dealing with a big web agency. This makes the relationship more personal, as I will be your contact person throughout the entire process for any inquiries. If you have any requests that go beyond my range of services, I can readily rely on a network of competent freelancers and third party services.`,
   },
   {
     img: ai,
@@ -60,8 +59,11 @@ const Details = () => {
         <div className="space-y-10">
           {details.map((detail, idx) => {
             return (
-              <div key={idx} className="flex items-center">
-                <div className="flex items-center justify-center w-full lg:w-1/5">
+              <div
+                key={idx}
+                className="items-center space-y-2 lg:flex lg:space-y-0"
+              >
+                <div className="items-center justify-center w-full lg:flex lg:w-1/5">
                   <div className="w-20">
                     <Image src={detail.img} alt="" />
                   </div>

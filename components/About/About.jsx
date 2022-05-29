@@ -15,7 +15,7 @@ const About = () => {
       <Container>
         <Title className="text-white" text="about me" />
 
-        <div className="grid gap-10 md:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex items-center justify-center">
             <Fade
               left={isDesktop}
@@ -38,21 +38,21 @@ const About = () => {
             >
               <p className="">
                 Being a huge advocate of the JAMSTACK I prefer to work with
-                React, Flutter or React Native for mobile apps, accompanied by a
-                serverless architecture.
+                React for web applications and Flutter or React Native for
+                mobile applications, accompanied by a serverless architecture.
               </p>
 
               <p className="">
                 With user experience as my main focus, I love paying close
-                attention to the smallest details when creating websites and web
-                applications.This allows me to create truly unique experiences
-                for my clients and their users.
+                attention to the smallest details when building websites, web or
+                mobile applications. This allows me to create truly unique
+                experiences for my clients and their users.
               </p>
 
               <p className="">
                 No matter your needs, be it a new custom-made website, a unique
-                online store or have an idea for an engaging web application:
-                Please feel free to{" "}
+                online store or have an idea for an engaging web or mobile
+                application: Please feel free to{" "}
                 <Link
                   to="contact"
                   smooth
@@ -67,8 +67,6 @@ const About = () => {
           </div>
         </div>
       </Container>
-
-      {/* <img src="/waves.svg" alt="waves" className="" /> */}
     </section>
   );
 };

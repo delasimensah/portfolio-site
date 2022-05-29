@@ -47,3 +47,13 @@ a {
   color: #f8f9fa !important;
   background: #8e44ad !important;
 }
+
+.mantine-1osbfbh.__mantine-ref-tabActive {
+  color: #f8f9fa !important;
+  background: #8e44ad !important;
+}
+
+.mantine-1590boo:checked {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+}

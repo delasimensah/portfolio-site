@@ -44,11 +44,6 @@ const Hero = () => {
       <Container className="space-y-4 text-tertiary">
         <div className="flex flex-col space-y-2 md:flex-row md:items-center md:space-y-0 md:space-x-3">
           <h1 ref={h1} className="heading" />
-          {/* <Fade top delay={1500} duration={500} distance="60px">
-            <p className="text-transparent heading bg-clip-text gradient">
-              Delasi Mensah
-            </p>
-          </Fade> */}
         </div>
 
         <h2 className="heading" ref={h2} />

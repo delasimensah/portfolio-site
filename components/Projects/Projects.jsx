@@ -39,9 +39,11 @@ const Projects = () => {
             </div>
           </Tabs.Tab>
 
-          {/* <Tabs.Tab label="Mobile">
-            <div className="py-16 space-y-28">Messages tab content</div>
-          </Tabs.Tab> */}
+          <Tabs.Tab label="Mobile">
+            <div className="py-16 text-xl text-center space-y-28">
+              Coming soon
+            </div>
+          </Tabs.Tab>
         </Tabs>
       </Container>
     </section>
