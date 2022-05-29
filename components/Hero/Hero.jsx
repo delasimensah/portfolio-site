@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Fade from "react-reveal/Fade";
 import Typed from "typed.js";
 import { Link } from "react-scroll";
@@ -12,20 +12,21 @@ const Hero = () => {
   const h2 = useRef();
   const typed = useRef();
   const typed2 = useRef();
+  const [visible, setVisible] = useState(false);
 
   const { isMobile, isDesktop } = useScreen();
 
   useEffect(() => {
     const options1 = {
       strings: [`Hi, my name is Delasi Mensah`],
-      typeSpeed: 60,
+      typeSpeed: 40,
       showCursor: false,
     };
 
     const options2 = {
       strings: [`I am a Web and Mobile Developer`],
-      typeSpeed: 60,
-      startDelay: 2500,
+      typeSpeed: 40,
+      startDelay: 1500,
       showCursor: false,
     };
 
@@ -39,6 +40,12 @@ const Hero = () => {
     };
   }, []);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setVisible(true);
+    }, 3200);
+  }, []);
+
   return (
     <header id="top" className="flex items-center min-h-screen">
       <Container className="space-y-4 text-tertiary">
@@ -48,12 +55,16 @@ const Hero = () => {
 
         <h2 className="heading" ref={h2} />
 
-        <div className="flex justify-center pt-5 md:block">
+        <div
+          className={`${
+            visible ? "flex" : "hidden"
+          } justify-center md:justify-start pt-5`}
+        >
           <Fade
             left={isDesktop}
             bottom={isMobile}
-            delay={4500}
-            distance="30px"
+            // delay={4500}
+            distance="10px"
             duration={1000}
           >
             <Link to="about" smooth duration={1000} className="btn-primary">
