@@ -33,7 +33,7 @@ const About = () => {
             <Fade
               top={isDesktop}
               bottom={isMobile}
-              delay={1000}
+              duration={1000}
               distance="30px"
             >
               <p className="">

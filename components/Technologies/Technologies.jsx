@@ -44,7 +44,12 @@ const Technologies = () => {
         <Title text="technologies i use" />
 
         <div className="flex flex-col justify-center space-y-5">
-          <Fade top={isDesktop} bottom={isMobile} delay={1000} distance="30px">
+          <Fade
+            top={isDesktop}
+            bottom={isMobile}
+            duration={1000}
+            distance="30px"
+          >
             <p className="">
               The web is changing rapidly and with it the possibilities to
               implement websites and web applications. Following the modern

@@ -7,9 +7,11 @@ import { Tabs } from "@mantine/core";
 import Title from "../Title/Title";
 import Container from "../Container/Container";
 import Project from "../Project/Project";
+// import MobileProject from "../Project/MobileProject";
 
 //utils
-import webProjects from "../../utils/webProjects";
+import web from "../../utils/webProjects";
+// import mobile from "../../utils/mobileProjects";
 
 const Projects = () => {
   return (
@@ -33,17 +35,19 @@ const Projects = () => {
           <Tabs.Tab label="Web">
             {" "}
             <div className="py-16 space-y-28">
-              {webProjects.map((project, idx) => {
+              {web.map((project, idx) => {
                 return <Project project={project} idx={idx} key={idx} />;
               })}
             </div>
           </Tabs.Tab>
 
-          <Tabs.Tab label="Mobile">
-            <div className="py-16 text-xl text-center space-y-28">
-              Coming soon
+          {/* <Tabs.Tab label="Mobile">
+            <div className="py-16 space-y-28">
+              {mobile.map((project, idx) => {
+                return <MobileProject project={project} key={idx} />;
+              })}
             </div>
-          </Tabs.Tab>
+          </Tabs.Tab> */}
         </Tabs>
       </Container>
     </section>
