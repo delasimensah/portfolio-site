@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import "../styles/globals.css";
+import "react-awesome-lightbox/build/style.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +9,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Delasi Mensah | Web Development | Mobile Development</title>
         <meta name="description" content="Portfolio website of Delasi Mensah" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <Component {...pageProps} />

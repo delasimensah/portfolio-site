@@ -32,7 +32,7 @@ a {
 }
 
 .btn-primary {
-  @apply inline-block px-10 py-2 font-medium uppercase transition-all duration-200 ease-linear border-2 rounded-full cursor-pointer border-primary text-primary hover:bg-primary hover:text-white;
+  @apply inline-block px-10 py-2 text-xs font-medium uppercase transition-all duration-200 ease-linear border-2 rounded-full cursor-pointer border-primary text-primary hover:bg-primary hover:text-white md:text-base;
 }
 
 .btn-white {

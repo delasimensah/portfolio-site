@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import Fade from "react-reveal/Fade";
 import useScreen from "../../hooks/useScreen";
 import Image from "next/image";
+import Lightbox from "react-awesome-lightbox";
+
+//mui
+import { Dialog } from "@mui/material";
 
 // mantine
-import { Modal, Button, Group } from "@mantine/core";
+// import { Modal } from "@mantine/core";
 
 const MobileProject = ({ project }) => {
   const { isDesktop, isMobile } = useScreen();
@@ -25,9 +29,9 @@ const MobileProject = ({ project }) => {
               View Screenshots
             </button>
 
-            {project.github && (
+            {github && (
               <a
-                href={project.github}
+                href={github}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-block "
@@ -64,20 +68,30 @@ const MobileProject = ({ project }) => {
         </div>
       </Fade>
 
-      <Modal
-        size="full"
-        overflow="inside"
-        centered
+      <Dialog open={opened} onClose={() => setOpened(false)}>
+        <Lightbox
+          image={screenshots.length === 1 && img.src}
+          images={screenshots.length > 1 && screenshots.map((img) => img.src)}
+          onClose={() => setOpened(false)}
+          startIndex={0}
+        />
+      </Dialog>
+
+      {/* <Modal
         opened={opened}
+        centered
         onClose={() => setOpened(false)}
+        size="full"
       >
-        <div className="grid grid-cols-5 gap-5">
+        <div className="grid gap-5 md:grid-cols-5">
           {screenshots.map((img, idx) => {
             return (
-              <div className="relative h-80 w-full md:h-[350px] lg:h-[400px]">
+              <div
+                className="relative h-80 w-full md:h-[350px] lg:h-[400px]"
+                key={idx}
+              >
                 <Image
-                  src={img}
-                  key={idx}
+                  src={img.img}
                   alt=""
                   layout="fill"
                   placeholder="blur"
@@ -87,7 +101,7 @@ const MobileProject = ({ project }) => {
             );
           })}
         </div>
-      </Modal>
+      </Modal> */}
     </div>
   );
 };
