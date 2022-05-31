@@ -1,12 +1,12 @@
 export default [
-  // {
-  //   title: "React Dashboard",
-  //   description:
-  //     "A dashboard web application with multiple use cases. Built with React",
-  //   demo: "https://reactdashboard-dm.netlify.app/",
-  //   github: "https://github.com/delasimensah/react-dashboard",
-  //   image: "/projects/project18.png",
-  // },
+  {
+    title: "React Dashboard",
+    description:
+      "A dashboard web application with multiple use cases. Built with React and Syncfusion",
+    demo: "https://reactdashboard-dm.netlify.app/",
+    github: "https://github.com/delasimensah/react-dashboard",
+    image: "/projects/proj18.png",
+  },
   {
     title: "Agama Africana",
     description:
