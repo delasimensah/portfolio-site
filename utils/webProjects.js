@@ -47,14 +47,14 @@ export default [
     github: "",
     image: "/projects/proj9.png",
   },
-  {
-    title: "DigiChat",
-    description:
-      "A chat application where users can signup and send messages to their friends and family. Built with React and Chat Engine",
-    demo: "https://digichat-dm.netlify.app/",
-    github: "https://github.com/delasimensah/digichat",
-    image: "/projects/proj10.png",
-  },
+  // {
+  //   title: "DigiChat",
+  //   description:
+  //     "A chat application where users can signup and send messages to their friends and family. Built with React and Chat Engine",
+  //   demo: "https://digichat-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/digichat",
+  //   image: "/projects/proj10.png",
+  // },
   // {
   //   title: "Online Fundraising Landing Website",
   //   description:
