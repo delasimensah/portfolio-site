@@ -8,12 +8,12 @@ import firebase from "../../public/images/logos/firebase.png";
 import next from "../../public/images/logos/next.png";
 import react from "../../public/images/logos/react.png";
 import reactNative from "../../public/images/logos/react-native.png";
-import node from "../../public/images/logos/node.png";
+// import node from "../../public/images/logos/node.png";
 import shopify from "../../public/images/logos/shopify.png";
 import netlify from "../../public/images/logos/netlify.png";
-import flutter from "../../public/images/logos/flutter.png";
-import materialui from "../../public/images/logos/materialui.png";
-import mantine from "../../public/images/logos/mantine.png";
+// import flutter from "../../public/images/logos/flutter.png";
+// import materialui from "../../public/images/logos/materialui.png";
+// import mantine from "../../public/images/logos/mantine.png";
 import tailwindcss from "../../public/images/logos/tailwindcss.png";
 
 //components
@@ -23,16 +23,16 @@ import Container from "../Container/Container";
 const logos = [
   react,
   next,
-  flutter,
+  // flutter,
   reactNative,
   tailwindcss,
-  materialui,
-  mantine,
+  // materialui,
+  // mantine,
   contentful,
   shopify,
   firebase,
   netlify,
-  node,
+  // node,
 ];
 
 const Technologies = () => {
@@ -80,9 +80,9 @@ const Technologies = () => {
 
             <p className="">
               Building truly native cross-platform mobile applications has also
-              never been easier with <strong>Flutter</strong> &{" "}
-              <strong>React-Native</strong>, now with a single code base, mobile
-              applications can run on both IOS and Android platforms
+              never been easier with <strong>React-Native</strong>, now with a
+              single code base, mobile applications can run on both IOS and
+              Android platforms
             </p>
 
             <p className="">

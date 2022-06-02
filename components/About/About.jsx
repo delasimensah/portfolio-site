@@ -38,8 +38,8 @@ const About = () => {
             >
               <p className="">
                 Being a huge advocate of the JAMSTACK I prefer to work with
-                React for web applications and Flutter or React Native for
-                mobile applications, accompanied by a serverless architecture.
+                React or Nextjs for web applications and React Native for mobile
+                applications, accompanied by a serverless architecture.
               </p>
 
               <p className="">
