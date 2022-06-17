@@ -24,6 +24,14 @@ export default [
     image: "/projects/proj17.png",
   },
   {
+    title: "Fitness",
+    description:
+      "Fitness is a simple web application where users can search for exercises for various muscle groups. Built with React, ExerciseDB and Youtube API's",
+    demo: "https://fitness-dm.netlify.app/",
+    github: "https://github.com/delasimensah/fitness-app",
+    image: "/projects/proj19.png",
+  },
+  {
     title: "Travel Companion",
     description:
       "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing. Built with React, Google Maps API and Travel Advisor API",
