@@ -23,22 +23,22 @@ export default [
     github: "https://github.com/delasimensah/share-frontend",
     image: "/projects/proj17.png",
   },
-  {
-    title: "Fitness",
-    description:
-      "Fitness is a simple web application where users can search for exercises for various muscle groups. Built with React, ExerciseDB and Youtube API's",
-    demo: "https://fitness-dm.netlify.app/",
-    github: "https://github.com/delasimensah/fitness-app",
-    image: "/projects/proj19.png",
-  },
-  {
-    title: "Travel Companion",
-    description:
-      "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing. Built with React, Google Maps API and Travel Advisor API",
-    demo: "https://travelcompanion-dm.netlify.app/",
-    github: "https://github.com/delasimensah/travel-companion",
-    image: "/projects/proj16.png",
-  },
+  // {
+  //   title: "Fitness",
+  //   description:
+  //     "Fitness is a simple web application where users can search for exercises for various muscle groups. Built with React, ExerciseDB and Youtube API's",
+  //   demo: "https://fitness-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/fitness-app",
+  //   image: "/projects/proj19.png",
+  // },
+  // {
+  //   title: "Travel Companion",
+  //   description:
+  //     "A web application where users can search for restaurants, hotels and attactions in their location or location of their choosing. Built with React, Google Maps API and Travel Advisor API",
+  //   demo: "https://travelcompanion-dm.netlify.app/",
+  //   github: "https://github.com/delasimensah/travel-companion",
+  //   image: "/projects/proj16.png",
+  // },
   // {
   //   title: "Sakicole",
   //   description:
@@ -47,14 +47,14 @@ export default [
   //   github: "https://github.com/delasimensah/sakicole",
   //   image: "/projects/proj15.png",
   // },
-  {
-    title: "Digital Meets",
-    description:
-      "A video chat application where users can have video conferences. Built with React.",
-    demo: "https://digitalmeets.netlify.app/",
-    github: "",
-    image: "/projects/proj9.png",
-  },
+  // {
+  //   title: "Digital Meets",
+  //   description:
+  //     "A video chat application where users can have video conferences. Built with React.",
+  //   demo: "https://digitalmeets.netlify.app/",
+  //   github: "",
+  //   image: "/projects/proj9.png",
+  // },
   // {
   //   title: "DigiChat",
   //   description:
@@ -103,14 +103,14 @@ export default [
   //   github: "https://github.com/delasimensah/crypto-landing",
   //   image: "/projects/proj12.png",
   // },
-  {
-    title: "Mobile App Landing Website",
-    description:
-      "A landing website for a fictional mobile application to showcase a beautiful modern design. Built with Nextjs.",
-    demo: "https://digiapplanding.netlify.app/",
-    github: "https://github.com/delasimensah/digi-mobile-app-landing-page",
-    image: "/projects/proj11.png",
-  },
+  // {
+  //   title: "Mobile App Landing Website",
+  //   description:
+  //     "A landing website for a fictional mobile application to showcase a beautiful modern design. Built with Nextjs.",
+  //   demo: "https://digiapplanding.netlify.app/",
+  //   github: "https://github.com/delasimensah/digi-mobile-app-landing-page",
+  //   image: "/projects/proj11.png",
+  // },
   // {
   //   title: "Cryptonews",
   //   description:
